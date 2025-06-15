@@ -9,5 +9,7 @@ int main()
     void (*fun_ptr)(int);
     fun_ptr = &fun; // Assign the address of the function 'fun' to the function pointer 'fun_ptr'
     (*fun_ptr)(10);
-    return 0;
+
+    int c = 32>>-1;
+    printf("%d",c);
 }
